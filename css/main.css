@@ -97,6 +97,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   @charset "UTF-8";
+
+   html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
 
 
 
