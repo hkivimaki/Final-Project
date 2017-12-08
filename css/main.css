@@ -164,11 +164,11 @@ z-index: 100;
 }
 
 #calendar{
-margin-left: 40%;
+margin-left: 43%;
 }
 
 #plan{
-margin-left: 5%;
+margin-left: 3%;
 }
 
 #other{
@@ -194,28 +194,51 @@ margin-left: 5%;
 
 .flags{
   top: 0;
-  margin-left: 5%;
+  margin-left: 3%;
   position: relative;
   display: inline-block;
+  transform: translate(0px, -3px);
 }
 
 .flags h2{
-  position: absolute;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  left: 40px;
+  margin: 0;
+  padding: 0;
   font-size: 1em;
-  top: 0;
-  margin-left: 40px;
+  top: 0px;
+  transform: translate(0px, -27px);
 }
 
 .flags img{
   height: 30px;
   width: auto;
+  margin: 0;
+  padding: 0;
   position: relative;
+}
+
+.dropdown li{
+  position: relative;
+  display: inline-block;
 }
 
 .flags:hover .dropdown {
     display: block;
     float: none;
     height: auto;
+}
+
+
+.searchbox{
+  position: absolute;
+  display: block;
+  float: right;
+  width: 500px;
+  transform: translate(1000px,-130px);
+  color: black;
 }
 
 
