@@ -140,7 +140,7 @@ img{
 }
 
 .uppernav ul{
-width: 80%;
+width: 83%;
 position: absolute;
 list-style-type: none;
 top: 0;
@@ -190,6 +190,7 @@ margin-left: 3%;
     display: block;
     float: none;
     height: auto;
+    overflow: hidden;
 }
 
 .flags{
@@ -229,6 +230,7 @@ margin-left: 3%;
     display: block;
     float: none;
     height: auto;
+    overflow: hidden;
 }
 
 
@@ -243,9 +245,36 @@ margin-left: 3%;
 
 
 .lowernav{
-  clear: both;
+height: 50px;
 }
 
+.lowernav ul{
+list-style-type: none;
+}
+
+.lowernav ul li h2{
+font-size: 1.30em;
+position: relative;
+float:left;
+transform: translate(340px,-130px);
+border-left:1px solid #858585;
+}
+
+.titles{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.drop:hover .dropdown {
+  overflow: hidden;
+  display: block;
+  height: auto;
+  float: none;
+}
+
+.section1{
+  
+}
 
 
 
