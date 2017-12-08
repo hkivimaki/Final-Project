@@ -136,11 +136,11 @@ img{
 }
 
 .uppernav{
+  height: 50px;
 }
 
 .uppernav ul{
 width: 80%;
-height: 40%;
 position: absolute;
 list-style-type: none;
 top: 0;
@@ -163,10 +163,61 @@ position: relative;
 z-index: 100;
 }
 
+#calendar{
+margin-left: 40%;
+}
+
+#plan{
+margin-left: 5%;
+}
+
+#other{
+  margin-left: 5%;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 12px 16px;
+    height: auto;
+}
+
+#other:hover .dropdown {
+    display: block;
+    float: none;
+    height: auto;
+}
+
+.flags{
+  top: 0;
+  margin-left: 5%;
+  position: relative;
+  display: inline-block;
+}
+
+.flags h2{
+  position: absolute;
+  font-size: 1em;
+  top: 0;
+  margin-left: 40px;
+}
+
 .flags img{
   height: 30px;
   width: auto;
+  position: relative;
 }
+
+.flags:hover .dropdown {
+    display: block;
+    float: none;
+    height: auto;
+}
+
 
 .lowernav{
   clear: both;
