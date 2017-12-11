@@ -131,6 +131,11 @@ img{
     display: block;
   }
 
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
 .allnavs{
   position: relative;
   max-width: 100%;
